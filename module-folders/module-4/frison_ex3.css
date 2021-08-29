@@ -1,0 +1,47 @@
+h1{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+#books{
+    font-family: 'Oswald', sans-serif;
+    width: 45%;
+    float:left;
+    padding: 10px;
+    border-style: dashed;
+    border-radius: 15px;
+    border-width: 1px;
+    border-color: red;
+    font-weight: 300;
+}
+#learned{
+    font-family: 'Oswald', sans-serif;
+    width: 45%;
+    float:right;
+    padding: 10px;
+    list-style: decimal;
+    list-style-position:outside;
+    border-style: dashed;
+    border-radius: 15px;
+    border-width: 1px;
+    border-color: red;
+    font-weight: 300;
+}
+#ullist{
+    list-style-type:upper-roman;
+}
+#under{
+    width: 100%;
+    margin-top: 60%;
+}
+#index{
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 20px;
+    float:right;
+    text-decoration: none;
+}
+#index:hover{
+    text-decoration: underline;
+}
+h3{
+    font-weight: 500;
+}
