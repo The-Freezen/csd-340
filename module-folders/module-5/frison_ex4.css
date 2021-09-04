@@ -3,12 +3,21 @@ h1,h3,figcaption{
     font-weight: 400px;
     text-align: center;
 }
+h1{
+    color:blue;
+}
+h3{
+    color: blueviolet;
+}
+figcaption{
+    color: brown;
+}
 #image_gallery{
     margin-top: 10%;
 }
 img{
-    width: 400px;
-    height: 350px;
+width: 400px;
+height: 350px;
 }
 figure{
     text-align: center;
@@ -17,12 +26,23 @@ figcaption{
     font-style: italic;
     font-size: .75em;
 }
-#Left_pane, #Mid_pane, #Right_pane{
-    width: 300px;
-    float: left;
+#Left_pane{
     border-radius: 15px;
     border-style:solid;
     padding:5px;
+    float: left;
+}
+#Mid_pane{
+    border-radius: 15px;
+    border-style:solid;
+    padding:5px;
+    float: left;
+}
+#Right_pane{
+    border-radius: 15px;
+    border-style:solid;
+    padding:5px;
+    float: left;
 }
 #under{
     width: 100%;
