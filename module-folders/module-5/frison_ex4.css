@@ -1,0 +1,39 @@
+h1,h3,figcaption{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400px;
+    text-align: center;
+}
+#image_gallery{
+    margin-top: 10%;
+}
+img{
+    width: 400px;
+    height: 350px;
+}
+figure{
+    text-align: center;
+}
+figcaption{
+    font-style: italic;
+    font-size: .75em;
+}
+#Left_pane, #Mid_pane, #Right_pane{
+    width: 300px;
+    float: left;
+    border-radius: 15px;
+    border-style:solid;
+    padding:5px;
+}
+#under{
+    width: 100%;
+    margin-top: 60%;
+}
+#index{
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 20px;
+    float:right;
+    text-decoration: none;
+}
+#index:hover{
+    text-decoration: underline;
+}
