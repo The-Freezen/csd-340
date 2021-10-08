@@ -1,5 +1,12 @@
+/*Cameron Frison
+Bellevue University
+7 Oct 2021 */
 html {
     box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
 }
 
 body {
@@ -8,95 +15,114 @@ body {
 }
 
 header {
-    background-color: red;
-    color: #fff;
+    background-color: green;
+    color: rgb(121, 24, 24);
     padding: 20px;
-    text-align: center;
+    text-align: left;
 }
 
-#navbar {
+.navbar {
     overflow: hidden;
-    background-color: #4F3674;
-    border-bottom: 15px solid #D6A800;
+    background-color: rgb(64, 223, 64);
+    border-bottom: 15px solid brown;
 }
 
-#navbar a {
+.navbar a {
     float: left;
     display: block;
-    color: #fff;
+    color: rgb(121, 24, 24);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-#navbar a:hover {
-    background-color: #D6A800;
-    color: #4F3674;
+.navbar a:hover {
+    background-color: brown;
+    color: rgb(121, 24, 24);
 }
 
 h1 {
     font-weight: 400;
-    text-align: center;
-}
-container{
-    padding: 2px;
-    position: relative;
-    float: left;
+    text-align:left;
+    color: rgb(121, 24, 24);
 }
 
-grid-3-col {
+.hobbies {
+    min-height: 250px;
+}
+
+.experience {
+    min-height: 250px;
+}
+
+.contact-container {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.grid-3-col {
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 10px;
 }
 
-hobbies {
-    min-height: 250px;
-}
-
-experience {
-    min-height: 250px;
-}
-
-full-width {
-    width: 100%;
-}
-
 .grid-item {
     padding: 20px;
 }
-card {
-    border: 1px;
-    padding: 2px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    width: 30%;
+img{
+    max-height: 200px;
+
 }
 
-card-title {
+.card {
+    width: 95%;
+}
+
+.card-title {
     text-align: center;
     font-size: 2em;
-    color: #4F3674;
+    color: rgb(121, 24, 24);
     font-weight: 400;
 }
 
-card-content {
-    max-width: 30%;
+.card-content {
     padding: 2px 16px;
 }
 
-form {
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.form {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     margin-left: 20%;
 }
 
-form-field {
+.form-field {
     padding: 20px;
 }
 
-input {
+.btn {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 15px 32px;
+    color: #000;
+}
+
+.input {
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -105,9 +131,6 @@ input {
     box-sizing: border-box;
 }
 
-contact-container {
-    margin-top: 20px;
-    padding: 10px;
-    text-align: center;
-    margin-bottom: 10%;
+.full-width {
+    width: 100%;
 }
